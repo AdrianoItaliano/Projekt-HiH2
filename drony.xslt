@@ -2,7 +2,6 @@
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     <xsl:strip-space elements="*"/>
     
-    <!-- Include CSS for styling -->
     <xsl:template name="css">
         <style>
             body { font-family: Arial, sans-serif; }
@@ -12,7 +11,6 @@
         </style>
     </xsl:template>
     
-    <!-- Template for the root element -->
     <xsl:template match="/drony">
         <html>
             <head>
@@ -25,7 +23,6 @@
         </html>
     </xsl:template>
     
-    <!-- Template for modele element -->
     <xsl:template match="modele">
         <h1>Modele Dronów</h1>
         <xsl:apply-templates select="model">
@@ -33,7 +30,6 @@
         </xsl:apply-templates>
     </xsl:template>
     
-    <!-- Template for model element -->
     <xsl:template match="model">
         <xsl:variable name="modelName" select="nazwa"/>
         <xsl:variable name="modelPrice" select="number(translate(@cena, ' PLN', ''))"/>
@@ -59,7 +55,6 @@
         </div>
     </xsl:template>
     
-    <!-- Template for opinie element -->
     <xsl:template match="opinie">
         <h3>Opinie</h3>
         <ul>
@@ -67,7 +62,6 @@
         </ul>
     </xsl:template>
     
-    <!-- Template for opinia element -->
     <xsl:template match="opinia">
         <li>
             <p>Ocena: <xsl:value-of select="@ocena"/></p>
@@ -76,13 +70,11 @@
         </li>
     </xsl:template>
     
-    <!-- Template for zdjecia element -->
     <xsl:template match="zdjecia">
         <h3>Zdjęcia</h3>
         <xsl:apply-templates select="zdjecie"/>
     </xsl:template>
     
-    <!-- Template for zdjecie element -->
     <xsl:template match="zdjecie">
         <div>
             <img>
@@ -96,7 +88,6 @@
         </div>
     </xsl:template>
     
-    <!-- Template for linki element -->
     <xsl:template match="linki">
         <h3>Linki</h3>
         <ul>
@@ -104,7 +95,6 @@
         </ul>
     </xsl:template>
     
-    <!-- Template for link element -->
     <xsl:template match="link">
         <li>
             <a>
@@ -116,7 +106,6 @@
         </li>
     </xsl:template>
     
-    <!-- Template for akcesoria element -->
     <xsl:template match="akcesoria">
         <h1>Akcesoria</h1>
         <ul>
@@ -126,7 +115,6 @@
         </ul>
     </xsl:template>
     
-    <!-- Template for akcesorium element -->
     <xsl:template match="akcesorium">
         <xsl:variable name="akcesoriumName" select="@nazwa"/>
         <xsl:variable name="akcesoriumPrice" select="number(translate(@cena, ' PLN EUR', ''))"/>
