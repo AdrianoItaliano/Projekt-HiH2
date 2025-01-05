@@ -10,8 +10,7 @@
                <opinia ocena="4.5" data="2024-07-11">Wszystko sprawnie szybko i trafiłam na fajną próbkę mega</opinia>
             </opinie>
             <zdjecia>
-               <zdjecie src="https://dji-ars.pl/pol_pm_Dron-DJI-Mini-3-27572_3.jpg"
-                        opis="Widok z góry"/>
+               <zdjecie src="https://dji-ars.pl/pol_pm_Dron-DJI-Mini-3-27572_3.jpg" opis="Widok z góry"/>
             </zdjecia>
             <linki>
                <link url="https://www.dji.com/mini-3" typ="producent"/>
@@ -20,11 +19,9 @@
             </linki>
          </DJI_Mini_3>
       </dron>
+
       <dron>
-         <Autel_EVO_Lite_ cena="4500 PLN"
-                          waga="820g"
-                          kamera="Tak"
-                          nazwa="Autel EVO Lite+">
+         <Autel_EVO_Lite_ cena="4500 PLN" waga="820g" kamera="Tak" nazwa="Autel EVO Lite+">
             <wymiary>210 x 123 x 95 mm</wymiary>
             <zastosowanie>profesjonalne</zastosowanie>
             <kolory>pomarańczowy czarny</kolory>
@@ -33,8 +30,7 @@
                <opinia ocena="4.7" data="2024-07-20">Solidny dron z długim czasem lotu. Trochę ciężki, ale wart swojej ceny.</opinia>
             </opinie>
             <zdjecia>
-               <zdjecie src="https://pl.autelpilot.eu/cdn/shop/products/autel-drone-evo-lite-plus-orange-1_f8c31e1d-4f29-4206-91b1-8b06f6360d8e_608x608.jpg?v=1657772034"
-                        opis="Widok z przodu"/>
+               <zdjecie src="https://pl.autelpilot.eu/cdn/shop/products/autel-drone-evo-lite-plus-orange-1_f8c31e1d-4f29-4206-91b1-8b06f6360d8e_608x608.jpg?v=1657772034" opis="Widok z przodu"/>
             </zdjecia>
             <linki>
                <link url="https://www.autelrobotics.com/lite-plus" typ="producent"/>
@@ -43,11 +39,9 @@
             </linki>
          </Autel_EVO_Lite_>
       </dron>
+
       <dron>
-         <Hubsan_Zino_Mini_SE cena="2000 PLN"
-                              waga="190g"
-                              kamera="Tak"
-                              nazwa="Hubsan Zino Mini SE">
+         <Hubsan_Zino_Mini_SE cena="2000 PLN" waga="190g" kamera="Tak" nazwa="Hubsan Zino Mini SE">
             <wymiary>137 x 88 x 61 mm</wymiary>
             <zastosowanie>rekreacyjne</zastosowanie>
             <kolory>biały czarny</kolory>
@@ -56,8 +50,7 @@
                <opinia ocena="4.2" data="2024-07-05">Idealny na początek przygody z dronami. Kamera mogłaby być lepsza.</opinia>
             </opinie>
             <zdjecia>
-               <zdjecie src="https://static4.megadron.pl/hpeciai/f65b7460707aaa13b3fb2024665070e8/pol_pm_Dron-DJI-Mini-2-SE-GRATIS-szklo-hartowane-27639_3.webp"
-                        opis="Widok z przodu"/>
+               <zdjecie src="https://static4.megadron.pl/hpeciai/f65b7460707aaa13b3fb2024665070e8/pol_pm_Dron-DJI-Mini-2-SE-GRATIS-szklo-hartowane-27639_3.webp" opis="Widok z przodu"/>
             </zdjecia>
             <linki>
                <link url="https://www.hubsan.com/zino-mini-se" typ="producent"/>
@@ -67,13 +60,10 @@
          </Hubsan_Zino_Mini_SE>
       </dron>
    </drony>
+   
    <akcesoria>
-      <akcesorium nazwa="Bateria zapasowa"
-                  koszt="250 PLN"
-                  kompatybilnosc="DJI Mini 3"/>
-      <akcesorium nazwa="Torba transportowa"
-                  koszt="150 PLN"
-                  kompatybilnosc="uniwersalne"/>
+      <akcesorium nazwa="Bateria zapasowa" koszt="250 PLN" kompatybilnosc="DJI Mini 3"/>
+      <akcesorium nazwa="Torba transportowa" koszt="150 PLN" kompatybilnosc="uniwersalne"/>
       <akcesorium nazwa="Osłony śmigieł" koszt="20 EUR" kompatybilnosc="DJI Mini 3"/>
    </akcesoria>
 </nowyKorzen>
